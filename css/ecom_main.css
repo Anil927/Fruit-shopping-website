@@ -1,0 +1,60 @@
+
+@media only screen and (min-width : 1280px) {
+    #navbar {
+        min-height:70px;
+        height: 100px;
+        padding: 0.3%;
+    }
+
+    #logo {
+        height: 80px;
+        width: 120px;
+    }
+}
+
+
+@media only screen and (max-width : 1280px) {
+    #navbar {
+        min-height:70px;
+        height: 100px;
+    }
+
+    #logo {
+        margin: 2%;
+        height: 80px;
+        width: 120px;
+    }
+}
+
+
+@media only screen and (max-width : 500px) {
+    #navbar {
+        min-height: 80px;
+        height: 84px;
+        margin-top: -2px;
+        padding-bottom: -20px;
+    }
+
+    #logo {
+        height: 80px;
+        width: 110px;
+        min-width: 100px;
+        min-height: 80px;
+    }
+}
+
+#basket {
+    margin-top: 40px;
+    color: rgb(6, 55, 51);
+}
+
+
+-webkit-scrollbar {
+    display: none ;
+}
+
+.buybtn {
+    margin-left: -13px;
+}
+
+
